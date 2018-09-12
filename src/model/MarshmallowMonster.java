@@ -47,7 +47,7 @@ public class MarshmallowMonster
 		return eyeCount;
 	}
 	
-	public boolean getHasNoses;
+	public boolean getHasNoses()
 	{
 		return hasNoses;
 	}

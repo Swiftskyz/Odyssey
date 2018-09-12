@@ -18,5 +18,22 @@ public class OdysseyController
 	public void start()
 	{
 		System.out.println(myMonster);
+		myMonster.setArmCount(9999);
+		System.out.println("My monster has this many arms: " + myMonster.getArmCount());
+		
+		//Make a new monster and customize from user input!
+		MarshmallowMonster userMonster;
+		
+		userMonster();
+	}
+	
+	public void userMonster()
+	{
+		Scanner inputScanner = new Scanner(System.in);
+		
+		System.out.println("What's the name of your Monster?");
+		String.userMonsterName = inputScanner.nextLine();
+		System.out.println("Your monster's name is " + userMonsterName);
+		
 	}
 }
